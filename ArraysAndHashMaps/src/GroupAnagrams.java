@@ -6,6 +6,7 @@ import java.util.HashMap;
 import java.util.List;
 
 public class GroupAnagrams {
+    //TC-O(n * k*log*k)
     public List<List<String>> groupAnagrams(String[] strs) {
         HashMap<String, List<String>> map=new HashMap<>();
 
