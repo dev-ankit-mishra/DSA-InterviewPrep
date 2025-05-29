@@ -13,4 +13,21 @@ public class JumpGame {
 
 
     }
+
+    //Method-2
+
+    public boolean canJump2(int[] nums) {
+        int n=nums.length;
+        int max=0;
+        for(int i=0;i<n;i++){
+            if(max<i){
+                return false;
+            }
+            else if((nums[i]+i)>max){
+                max=nums[i]+i;
+            }
+        }
+        return true;
+
+    }
 }
