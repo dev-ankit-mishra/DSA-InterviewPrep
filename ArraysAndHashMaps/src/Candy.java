@@ -1,7 +1,5 @@
 //Problem Link-https://leetcode.com/problems/candy/description/?envType=study-plan-v2&envId=top-interview-150
 
-
-
 public class Candy {
     public int candy(int[] ratings) {
         int n = ratings.length;
