@@ -1,26 +1,37 @@
-//Problem Link-https://leetcode.com/problems/happy-number/?envType=study-plan-v2&envId=top-interview-150
+//Problem Link-https://leetcode.com/problems/candy/description/?envType=study-plan-v2&envId=top-interview-150
 
-import java.util.HashSet;
-import java.util.Set;
+
 
 public class Candy {
-    public boolean isHappy(int n) {
-        Set<Integer> seen = new HashSet<>();
+    public int candy(int[] ratings) {
+        int n = ratings.length;
+        if(n==1){
+            return 1;
+        }
+        int[] left=new int[n];
+        left[0]=1;
+        for(int i=1;i<n;i++){
+            if(ratings[i]<=ratings[i-1]){
+                left[i]=1;
+            }else{
+                left[i]=left[i-1]+1;
+            }
+        }
+        int[] right=new int[n];
+        right[n-1]=1;
 
-        while (n != 1 && !seen.contains(n)) {
-            seen.add(n);
-            n = getSquareSum(n);
+        for(int i=n-2;i>=0;i--){
+            if(ratings[i]<=ratings[i+1]){
+                right[i]=1;
+            }else{
+                right[i]=right[i+1]+1;
+            }
         }
 
-        return n == 1;
-    }
 
-    private int getSquareSum(int n) {
-        int sum = 0;
-        while (n > 0) {
-            int digit = n % 10;
-            sum += digit * digit;
-            n /= 10;
+        int sum=0;
+        for(int i=0;i<left.length;i++){
+            sum+=Math.max(left[i],right[i]);
         }
         return sum;
     }
