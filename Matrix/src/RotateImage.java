@@ -18,5 +18,5 @@ public class RotateImage {
     }
 
     //Method-2
-    
+
 }
