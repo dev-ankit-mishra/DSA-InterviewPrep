@@ -6,6 +6,7 @@
       <sourceFolder url="file://$MODULE_DIR$/ArraysAndHashMaps/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Matrix/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/TwoPointer/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Stack/src" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
