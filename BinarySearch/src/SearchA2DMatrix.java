@@ -2,7 +2,7 @@
 
 public class SearchA2DMatrix {
     //Method-1
-    public boolean searchMatrix(int[][] matrix, int target) {
+    public boolean searchMatrix1(int[][] matrix, int target) {
         int n=matrix.length;
         int x=matrix[0].length;
         int lo=0;
@@ -31,7 +31,7 @@ public class SearchA2DMatrix {
         return false;
     }
     //Method-2
-    public boolean searchMatrix(int[][] matrix, int target) {
+    public boolean searchMatrix2(int[][] matrix, int target) {
         int r=0;
         int c=matrix[0].length-1;
 
