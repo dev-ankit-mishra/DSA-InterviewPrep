@@ -9,9 +9,8 @@ public class LongestRepeatingCharacterReplacement {
         int maxFreq = 0;
 
         for (int j = 0; j < n; j++) {
-            int i1 = arr[s.charAt(j) - 'A'];
-            i1++;
-            maxFreq = Math.max(maxFreq, i1);
+            arr[s.charAt(j) - 'A']++;
+            maxFreq = Math.max(maxFreq, arr[s.charAt(j) - 'A']);
 
             int changes = (j - i + 1) - maxFreq;
             if (changes > k) {
