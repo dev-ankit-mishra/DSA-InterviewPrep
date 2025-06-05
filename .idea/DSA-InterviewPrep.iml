@@ -8,6 +8,7 @@
       <sourceFolder url="file://$MODULE_DIR$/TwoPointer/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/SlidingWindow/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Stack/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/BinarySearch/src" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
