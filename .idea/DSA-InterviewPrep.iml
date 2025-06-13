@@ -11,6 +11,7 @@
       <sourceFolder url="file://$MODULE_DIR$/BinarySearch/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LinkedList/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/BinaryTreeGeneral/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/BinarySearchTree/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/BinaryTreeBFS/src" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
