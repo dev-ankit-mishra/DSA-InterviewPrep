@@ -13,6 +13,7 @@
       <sourceFolder url="file://$MODULE_DIR$/BinaryTreeGeneral/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/BinarySearchTree/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/BinaryTreeBFS/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Interval/src" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
